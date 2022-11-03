@@ -1,0 +1,13 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.btn-primary {
+    @include m.button(v.$primary, v.$secondary);
+}
+
+.btn-plan {
+    @extend .btn-primary;
+    border: 2px solid v.$white;
+    margin-top: 2rem;
+    display: block;
+}

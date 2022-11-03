@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,176 @@
     <title>Podcast App</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="build/css/app.css">
-  
+
 </head>
+
 <body>
+    <header class="header-site">
+        <div class="container header-grid">
+            <div class="logo">
+                <img src="build/img/logo.svg" alt="logo podcast app">
+            </div>
 
+            <div class="header-content">
+                <h1>Your Platform to publish your podcasts</h1>
+                <a href="#" class="btn-primary">Create Account</a>
+            </div>
+        </div>
+    </header>
 
+    <section class="container section">
+        <div class="create-grid">
+            <div class="img">
+                <img src="build/img/imagen_podcast.svg" alt="podcast image">
+            </div>
+            <div class="content">
+                <h2>Create your Podcast</h2>
+                <p>We distribute it to the most popular platforms such as Google Podcast, Spotify, Apple Podcast and
+                    YouTube.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits section">
+        <div class="benefits-grid container">
+            <div class="benefits-content">
+                <h2>Reach thousands and earn money</h2>
+                <p>Podcasts have become an entertainment medium that gains more followers every day, with varied topics
+                    you can create your own podcast, be heard by thousands of people and turn your passion into a
+                    business.</p>
+            </div>
+
+            <div class="img">
+                <picture>
+                    <source srcset="build/img/podcast_cover.avif" type="image/avif">
+                    <source srcset="build/img/podcast_cover.webp" type="image/webp">
+                    <img loading="lazy" src="build/img/podcast_cover.png" alt="podcast image">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+    <section class="stadistics section container">
+        <h2>Detailed Stadistics</h2>
+        <p>We distribute it to the most popular platforms such as Google Podcast, Spotify, Apple Podcast and YouTube.
+        </p>
+
+        <img src="build/img/grafica.svg" alt="graphic image">
+    </section>
+
+    <section class="plans section">
+        <div class="container">
+            <h2>Plans</h2>
+            <p class="description">Start for free, grow your plan when needed</p>
+
+            <div class="our-plans">
+                <div class="plan basic">
+                    <h3>Basic</h3>
+                    <p class="price">2,99€ Monthly</p>
+
+                    <ul class="list">
+                        <li>30 Episodes</li>
+                        <li>Stadistics</li>
+                        <li>Recording App</li>
+                    </ul>
+
+                    <a href="#" class="btn-plan">Susbcribe</a>
+                </div> <!-- plan -->
+                <div class="plan business">
+                    <h3>Business</h3>
+                    <p class="price">6,99€ Monthly</p>
+
+                    <ul class="list">
+                        <li>Unlimited Episodes</li>
+                        <li>All Platforms</li>
+                        <li>Stadistics</li>
+                        <li>Recording App</li>
+                        <li>Paid Podcasts</li>
+                    </ul>
+
+                    <a href="#" class="btn-plan">Susbcribe</a>
+                </div> <!-- plan -->
+                <div class="plan pro">
+                    <h3>Pro</h3>
+                    <p class="price">4,99€ Monthly</p>
+
+                    <ul class="list">
+                        <li>50 Episodes</li>
+                        <li>All Platforms</li>
+                        <li>Stadistics</li>
+                        <li>Recording App</li>
+                    </ul>
+
+                    <a href="#" class="btn-plan">Susbcribe</a>
+                </div> <!-- plan -->
+            </div>
+        </div>
+    </section>
+
+    <section class="container section testimonials">
+        <div class="img">
+            <picture>
+                <source srcset="build/img/app.avif" type="image/avif">
+                <source srcset="build/img/app.webp" type="image/webp">
+                <img loading="lazy" src="build/img/app.jpg" alt="app image">
+            </picture>
+        </div>
+
+        <div class="content">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatum pariatur ea tempora
+                    aliquid quisquam sequi labore nemo debitis maiores, aperiam.</p>
+            </div>
+            <div class="testimonial">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatum pariatur ea tempora
+                    aliquid quisquam sequi labore nemo debitis maiores, aperiam.</p>
+            </div>
+            <div class="testimonial">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptatum pariatur ea tempora
+                    aliquid quisquam sequi labore nemo debitis maiores, aperiam.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-box">
+                <img src="build/img/logo.svg" alt="logo podcast" class="logo">
+            </div>
+
+            <div class="footer-box">
+                <h3>Solutions</h3>
+                <nav>
+                    <a href="#">Solutions</a>
+                    <a href="#">Graphics</a>
+                    <a href="#">Distribution</a>
+                </nav>
+            </div>
+
+            <div class="footer-box">
+                <h3>Support</h3>
+                <nav>
+                    <a href="#">Documentation</a>
+                    <a href="#">Prices</a>
+                    <a href="#">API</a>
+                </nav>
+            </div>
+
+            <div class="footer-box">
+                <h3>Podcast FM</h3>
+                <nav>
+                    <a href="#">About Us</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Clients</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="copyright">Podcast FM - All rights Reserved</div>
+    </footer>
 </body>
+
 </html>

@@ -50,3 +50,37 @@
     gap: $gap;
     grid-template-columns: repeat($columns, 1fr);
 }
+
+@mixin bgImage($url, $fadingColor) {
+    background-image: linear-gradient($fadingColor 0%, $fadingColor 100%), url($url);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+@mixin bgIcon($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-position: 50% 2rem;
+    background-size: 10rem;
+}
+
+@mixin headingBorder($colorText, $colorLine) {
+    font-size: 3.6rem;
+    display: inline-block;
+    margin-top: 5rem;
+    color: $colorText;
+
+    @include tablet {
+        margin-top: 0;
+    }
+
+    &::after {
+        content: '';
+        background-color: $colorLine;
+        height: 1rem;
+        width: calc(100% + 1rem);
+        display: block;
+        margin: -1.4rem 0 0 0;
+    }
+}
